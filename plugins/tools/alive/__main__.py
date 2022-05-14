@@ -96,9 +96,9 @@ async def _get_text_and_markup(message: Message) -> Tuple[str, Optional[InlineKe
         markup = InlineKeyboardMarkup([
             [
                 InlineKeyboardButton(text="🙋🏻‍♂️ OTR Group", url="https://t.me/OTRofficial"),
-                InlineKeyboardButton(text="🧪 Repo", url=alive.UPSTREAM_REPO)
+                InlineKeyboardButton(text="🔥 OTR Channel", url="https://t.me/OTRportal")
             ],
-            [InlineKeyboardButton(text="🎖 GNU GPL v3.0", url=copy_)]
+            [InlineKeyboardButton(text="H.A.I.T.A.🐺🎭😍⚔❤", url="https://t.me/lupiidinhaita")]
         ])
     return output, markup
 
