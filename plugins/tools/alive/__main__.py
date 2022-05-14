@@ -89,16 +89,16 @@ async def _get_text_and_markup(message: Message) -> Tuple[str, Optional[InlineKe
     **__Loader__**: `{ver.__loader_version__}`"""
     if not message.client.is_bot:
         output += f"""\n
-🎖 **{ver.__license__}** | 👥 **{ver.__copyright__}** | 🧪 **[Repo]({alive.UPSTREAM_REPO})**
+🎖 **{ver.__license__}** | 🙋 **{ver.__copyright__}** | 🧪 **[Repo]({alive.UPSTREAM_REPO})**
 """
     else:
-        copy_ = "https://github.com/UsergeTeam/Userge/blob/master/LICENSE"
+        copy_ = "https://t.me/OTRportal/7"
         markup = InlineKeyboardMarkup([
             [
                 InlineKeyboardButton(text="🙋🏻‍♂️ OTR Group", url="https://t.me/OTRofficial"),
-                InlineKeyboardButton(text="🔥 OTR Channel", url="https://t.me/OTRportal")
+                InlineKeyboardButton(text="🧪 Repo", url=alive.UPSTREAM_REPO)
             ],
-            [InlineKeyboardButton(text="H.A.I.T.A.🐺🎭😍⚔❤", url="https://t.me/lupiidinhaita")]
+            [InlineKeyboardButton(text="🔥 OTR Channel", url=copy_)]
         ])
     return output, markup
 
