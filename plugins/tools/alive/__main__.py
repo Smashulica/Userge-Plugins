@@ -89,14 +89,14 @@ async def _get_text_and_markup(message: Message) -> Tuple[str, Optional[InlineKe
     **__Loader__**: `{ver.__loader_version__}`"""
     if not message.client.is_bot:
         output += f"""\n
-🔥 **@OTRportal** | 🙋 **@OTRofficial** | 🐺 **@LupiiDinHaita**
+🔥 **@OTRportal** | 🙋 **@OTRofficial** | **@LupiiDinHaita** 🐺
 """
     else:
         copy_ = "https://t.me/OTRportal/7"
         markup = InlineKeyboardMarkup([
             [
                 InlineKeyboardButton(text="🙋🏻‍♂️ OTR Group", url="https://t.me/OTRofficial"),
-                InlineKeyboardButton(text="🧪 Repo", url=alive.UPSTREAM_REPO)
+                InlineKeyboardButton(text="🐺 Haita", url="https://t.me/LupiiDinHaita")
             ],
             [InlineKeyboardButton(text="🔥 OTR Channel", url=copy_)]
         ])
