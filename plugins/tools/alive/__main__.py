@@ -33,7 +33,7 @@ _LOG = logging.getLogger(__name__)
 _IS_TELEGRAPH = False
 _IS_STICKER = False
 
-_DEFAULT = "https://t.me/c/1408067659/4245"
+_DEFAULT = "https://t.me/OTRofficial/29127"
 _CHAT, _MSG_ID = None, None
 _LOGO_ID = None
 
@@ -89,10 +89,10 @@ async def _get_text_and_markup(message: Message) -> Tuple[str, Optional[InlineKe
     **__Loader__**: `{ver.__loader_version__}`"""
     if not message.client.is_bot:
         output += f"""\n
-🔥 **@OTRportal** | 🙋 **@OTRofficial** | **@LupiiDinHaita** 🐺
+🔥 **@OTRportall** | 🙋 **@OTRofficial** | **@LupiiDinHaita** 🐺
 """
     else:
-        copy_ = "https://t.me/OTRportal/7"
+        copy_ = "https://t.me/OTRportall/7"
         markup = InlineKeyboardMarkup([
             [
                 InlineKeyboardButton(text="🙋🏻‍♂️ OTR Group", url="https://t.me/OTRofficial"),
