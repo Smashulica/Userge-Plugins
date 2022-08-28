@@ -131,7 +131,7 @@ if userge.has_bot:
             markup = InlineKeyboardMarkup([
                 [
                     InlineKeyboardButton(text="🙋🏻‍♂️ OTR Group", url="https://t.me/OTRofficial"),
-                    InlineKeyboardButton(text="🔥🏻‍♂️ OTR Channel", url="https://t.me/OTRportal")
+                    InlineKeyboardButton(text="🔥🏻‍♂️ OTR Channel", url="https://t.me/OTRportall")
                 ],
                 [InlineKeyboardButton(text="H.A.I.T.A.🐺🎭😍⚔❤", url="https://t.me/lupiidinhaita")]
             ])
